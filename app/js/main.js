@@ -24,6 +24,12 @@ const label = document.querySelector(".commission__label");
 question.addEventListener('mouseover', () => {
   label.classList.add('active')
 })
-// label.addEventListener('mouseout', () => {
-//   label.classList.remove('active')
-// })
+
+var swiper = new Swiper(".swiper", {
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  fade: true,
+});
