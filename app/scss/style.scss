@@ -1598,3 +1598,23 @@ input::-webkit-inner-spin-button {
     }
   }
 }
+
+.none {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .none {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .banner__info-video {
+    top: 237px;
+  }
+
+  .description-text-block p {
+    font-size: 12px;
+  }
+}
